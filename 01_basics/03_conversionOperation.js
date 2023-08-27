@@ -27,6 +27,24 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let score = 33
 let stringScore = String(score)
 
-console.log(stringScore);
-console.log(typeof stringScore);
+// console.log(stringScore);
+// console.log(typeof stringScore);
 
+// ************************Operation*******************************************
+
+// console.log("1" + 2 + 2)
+
+// console.log(1+2+"2")
+
+//PostFix
+// let x = 3
+// const y = x++
+
+// console.log(`x =${x} and y = ${y}`)
+
+//PreFix
+
+let x = 3
+const y = ++x
+
+console.log(`x =${x} and y = ${y}`)
